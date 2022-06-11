@@ -125,10 +125,16 @@ start influencer banner -------------------------------- */
     text-align:center;
     
 }
+.products{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    grid-row-gap: 40px;
+}
 .product{
     width: 329px;
-    height: 460px;
-    box-shadow: 0 30px 34px rgba(0,0,0,0.7);
+    height: 477px;
+    box-shadow: 0 20px 34px rgba(0,0,0,0.5);
     border-radius: 4px;
 }
 
@@ -164,6 +170,7 @@ start influencer banner -------------------------------- */
 .product-info
 {
     margin-left: 20px;
+    font-size: 12px;
 }
 .product-text{
     font-size: 14px;
