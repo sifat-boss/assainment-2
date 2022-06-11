@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* header{ */
+
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    
+}
+ li{
+    margin-left: 20px;
+    list-style: none;
+}
+.fa-solid{
+    /* color: rgb(18, 14, 14); */
+    /* font-weight:; */
+    font-size:25px;
+    /* background-color: rgb(21, 17, 17); */
+}
+li a ,h2{
+    text-decoration: none;
+    color:  #3A3A3A;
+    font-weight:500;
+    font-size:16px;
+    /* padding:0 10px; */
+}
+
+/* -------------------------------------
+--------------------------
+start influencer banner -------------------------------- */
+.influencer{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center;
+}
+.incluencer-left{
+    width: 582px;
+    height: 270px;
+    padding: 10px 20px;
+}
+ .influencer-right {
+    width: 440px;
+    height: 414px;
+}
+.influencer-title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.influencer-text{
+    margin-top:16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.influencer-button{
+    margin-top:16px;
+    width: 196px;
+    height: 44px;
+    left: 120px;
+    top: 511px;
+    background: #E02C6D;
+    border: 1px solid #fff;
+    border-radius: 41px;
+}
+.influencer-button p{
+    color: #fff;
+    font-weight: 600;
+    line-height: 24px;
+    font-size:16px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.influencer-button span{
+    margin-left: 16px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+}
+
+/* --------------------------another ecomerce website picture site---------- */
