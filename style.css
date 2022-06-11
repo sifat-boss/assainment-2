@@ -112,3 +112,63 @@ start influencer banner -------------------------------- */
 
 
 /* --------------popular collection site css ------------------- */
+.product-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align:center;
+    padding: 0 30px;
+   margin-top: 100px ;
+   margin-bottom :30px;
+}
+.product-title h2{
+    display: block;
+    text-align:center;
+    
+}
+.product{
+    width: 329px;
+    height: 460px;
+    box-shadow: 0 30px 34px rgba(0,0,0,0.7);
+    border-radius: 4px;
+}
+
+.product img{
+    width: 310px;
+    height:230px;
+    margin:10px;
+    border-radius:4px;
+    border: 2px solid #fff;
+    
+}
+.product-detail{
+    padding: 20px;
+
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+}
+.products-name{
+    font-weight: 500;
+    font-size: 28px;
+}
+.fa-star{
+    font-size:10px;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.fa-star.filled{
+    color: #ffC014;
+}
+.product-info
+{
+    margin-left: 20px;
+}
+.product-text{
+    font-size: 14px;
+    line-height: 143%;
+    display: flex;
+    align-items: center;
+    color: #787885;
+}
