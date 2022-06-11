@@ -101,3 +101,14 @@ start influencer banner -------------------------------- */
 }
 
 /* --------------------------another ecomerce website picture site---------- */
+.ecomerce-photo{
+    display: flex;
+    margin:20px 0;
+    justify-content: space-evenly;
+}
+.top{
+    margin-top:100px;
+}
+
+
+/* --------------popular collection site css ------------------- */
