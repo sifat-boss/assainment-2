@@ -30,13 +30,20 @@ nav ul{
     margin-left: 20px;
     list-style: none;
 }
-.fa-solid{
+.first-title {
+    text-decoration: none;
+    color:  #3A3A3A;
+    font-weight:500;
+    font-size:20px;
+}
+#fa-solidhi{
     /* color: rgb(18, 14, 14); */
     /* font-weight:; */
     font-size:25px;
+    color:   #E02C6D;;
     /* background-color: rgb(21, 17, 17); */
 }
-li a ,h2{
+li a {
     text-decoration: none;
     color:  #3A3A3A;
     font-weight:500;
@@ -67,11 +74,13 @@ start influencer banner -------------------------------- */
     line-height: 70px;
     color: #3A3A3A;
 }
-.influencer-text{
+#influencer-text {
     margin-top:16px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    color: #3A3A3A;
+    padding:5px 10px;
 }
 .influencer-button{
     margin-top:16px;
@@ -120,6 +129,7 @@ start influencer banner -------------------------------- */
     padding: 0 30px;
    margin-top: 100px ;
    margin-bottom :30px;
+   color: #3A3A3A;
 }
 .product-title h2{
     display: block;
@@ -181,7 +191,7 @@ start influencer banner -------------------------------- */
     color: #787885;
 }
 .bottom{
-    color:   #E02C6D;
+    
     margin-left: 1000px;
     margin-top: 80px;
 }
@@ -189,11 +199,13 @@ start influencer banner -------------------------------- */
     word-wrap: none;
     font-size: 16px;
     font-weight:700;
+    color:   #fff;
 }
 .bottom  span{
     margin-left: 10px;
     font-size: 26px;
     font-weight:700;
+    color: white;
 }
 
 /* bottom banner site css */
