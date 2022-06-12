@@ -85,12 +85,13 @@ start influencer banner -------------------------------- */
 }
 .influencer-button p{
     color: #fff;
-    font-weight: 600;
-    line-height: 24px;
-    font-size:16px;
+    font-weight: 500;
+    line-height: 5px;
+    font-size:19px;
     display: flex;
     justify-content:center;
     align-items:center;
+    padding: 5px;
 }
 .influencer-button span{
     margin-left: 16px;
@@ -134,7 +135,7 @@ start influencer banner -------------------------------- */
 .product{
     width: 329px;
     height: 477px;
-    box-shadow: 0 20px 34px rgba(0,0,0,0.5);
+    box-shadow: 0 20px 27px rgba(0,0,0,0.5);
     border-radius: 4px;
 }
 
@@ -195,3 +196,99 @@ start influencer banner -------------------------------- */
     font-weight:700;
 }
 
+/* bottom banner site css */
+.bottom-banner{
+    display:flex;
+    margin-top:100px;
+    justify-content:space-evenly;
+    /* align-items */
+}
+.banner-right{
+width: 610px;
+height: 224px;
+padding:0 20px;
+}
+.banner-left img{
+    width: 350px;
+    height: 230px;
+    border-radius:8px;
+    margin-right: 100px;
+    object-fit: cover;
+}
+.banner-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+#banner-text{
+    margin-top:27px;
+}
+.banner-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top:16px;
+    margin-right: 80px;
+}
+
+
+/* footer site css style part */
+footer{
+    width: 99.4%;
+    height: 250px;
+    background: #031527;
+    margin: 0 auto;
+    margin-top:100px;
+       margin-bottom:10px;
+    /* margin: 10px; */
+}
+.footer-site{
+    position: relative;
+    
+}
+#footer{
+    /* text-align: center; */
+    margin-top :40px;
+    position: absolute;
+    width: 262px;
+    height: 139px;
+    left: 500px;
+}
+h2{
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-bottom:10px;
+}
+p,.span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 13px;
+    color: #fff;
+    text-align:center;
+    font-weight: 300;
+    margin-top:10px;
+}
+.social-font{
+    display:flex;
+    margin-top: 15px;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-align:center;
+
+}
+.fa-solid{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
