@@ -36,11 +36,11 @@ nav ul{
     font-weight:500;
     font-size:20px;
 }
-#fa-solidhi{
+.icon .fa-solid{
     /* color: rgb(18, 14, 14); */
     /* font-weight:; */
     font-size:25px;
-    color:   #E02C6D;;
+    color:   #f4077e;;
     /* background-color: rgb(21, 17, 17); */
 }
 li a {
